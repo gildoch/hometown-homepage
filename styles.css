@@ -1,0 +1,73 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+img {
+  width: 300px;
+}
+
+.hero {
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-image: url("./images/polana-serena-hotel-maputo-mozambique.jpg");
+  background-size: cover;
+}
+
+.hero > h1 {
+  background-color: #1d3557;
+  padding: 5px 20px;
+}
+
+.hero > h2 {
+  background-color: #457b9d;
+  padding: 5px 10px;
+}
+
+.activities {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f1faee;
+}
+
+.activities-places {
+  display: flex;
+  justify-content: space-around;
+  column-gap: 50px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.activities-places > img {
+  margin-bottom: 10px;
+}
+
+.guide {
+  width: 720px;
+  height: 345px;
+  display: flex;
+  margin: 100px auto;
+  background-color: #a8dadc;
+  color: #1d3557;
+  border-bottom: 10px solid #1d3557;
+}
+
+.guide > img {
+  width: 40%;
+}
